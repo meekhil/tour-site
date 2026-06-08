@@ -67,7 +67,7 @@
 }
 
 #explore-item1 {
-  background: url(../assect/images/banner1.jpg);
+  background: url(../assect/images/banner3.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -201,4 +201,5 @@ select {
 
 /***** End MAIN Section *****/
 
-
+@media screen and () {
+}
