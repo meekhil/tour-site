@@ -1,0 +1,26 @@
+
+@media screen and (width <= 990px) {
+  /***** HEADER Section *****/
+
+  #nav-item {
+    display: none;
+  }
+
+  #nav-button {
+    display: flex;
+  }
+
+  /***** End HEADER Section *****/
+
+  /***** MAIN Section *****/ 
+  
+  /***** Explore-section Section *****/ 
+  
+  background-size: ;
+  
+  /***** End Explore-section Section *****/
+  
+  
+  /***** End MAIN Section *****/
+  
+}

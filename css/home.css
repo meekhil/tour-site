@@ -1,0 +1,204 @@
+/***** MAIN Section *****/
+
+/***** Explore Section *****/
+
+#explore-section {
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+}
+
+@keyframes slider {
+  0% {
+    transform: translate(0);
+    -webkit-transform: translate(0);
+    -moz-transform: translate(0);
+    -ms-transform: translate(0);
+    -o-transform: translate(0);
+  }
+  25% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+    -moz-transform: translateX(-200%);
+    -ms-transform: translateX(-200%);
+    -o-transform: translateX(-200%);
+  }
+  72% {
+    transform: translateX(-300%);
+    -webkit-transform: translateX(-300%);
+    -moz-transform: translateX(-300%);
+    -ms-transform: translateX(-300%);
+    -o-transform: translateX(-300%);
+  }
+  100% {
+    transform: translate(-400%);
+    -webkit-transform: translate(-400%);
+    -moz-transform: translate(-400%);
+    -ms-transform: translate(-400%);
+    -o-transform: translate(-400%);
+  }
+}
+
+.explore-containere {
+  width: 100%;
+  height: 88vh;
+  flex: 0 0 100%;
+  animation: slider 13s infinite;
+  -webkit-animation: slider 13s infinite;
+  position: relative;
+}
+
+.explore-containere::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #0f183aa1;
+  position: absolute;
+  top: 0;
+}
+
+#explore-item1 {
+  background: url(../assect/images/banner1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#explore-item2 {
+  background: url(../assect/images/banner2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#explore-item3 {
+  background: url(../assect/images/banner3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#explore-item4 {
+  background: url(../assect/images/banner4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.explore-containere > article {
+  width: 80%;
+  height: 40%;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: normal;
+  position: relative;
+}
+
+h2 {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: clamp(2.2rem, 5vw, 14rem);
+  margin: 0 0 0 1.2rem;
+  word-spacing: -1rem;
+}
+
+p{
+  font-size: clamp(1rem, 1.2vw, 5rem);
+}
+
+
+#btn-left {
+  left: 95%;
+}
+
+#btn-right {
+  right: 95%;
+}
+
+#btn-center {
+  position: absolute;
+  left: 72%;
+  bottom: 1%;
+  padding: 1rem 2rem;
+  color: var(--text-color);
+  text-align: center;
+  font-weight: 700;
+  background-color: #070e2a8b;
+  position: absolute;
+  z-index: 2;
+  border: none;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -ms-border-radius: 0.4rem;
+  -o-border-radius: 0.4rem;
+}
+
+/***** End Explore Section *****/
+
+/***** Find Tour Section *****/
+
+#find-tour {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#find-tour > form {
+  width: 70%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+  border-radius: 1.6rem;
+  -webkit-border-radius: 1.6rem;
+  -moz-border-radius: 1.6rem;
+  -ms-border-radius: 1.6rem;
+  -o-border-radius: 1.6rem;
+
+  box-shadow:
+    0px 1px 2px rgba(3, 7, 18, 0.27),
+    1px 4px 8px rgba(3, 7, 18, 0.23),
+    1px 10px 17px rgba(3, 7, 18, 0.18),
+    2px 17px 30px rgba(3, 7, 18, 0.14),
+    3px 26px 47px rgba(3, 7, 18, 0.09),
+    5px 38px 68px rgba(3, 7, 18, 0.04);
+}
+
+#find-tour > form > div label {
+  padding: 0 3rem;
+  font-weight: 700;
+}
+
+#find-tour > form > div input,
+select {
+  color: var(--text-color);
+  font-size: 1.8rem;
+  font-weight: 500;
+  outline: none;
+  margin-top: 1rem;
+  padding: 1rem 2.6rem;
+  background-color: var(--body-color);
+  border: 1px solid var(--text-input-color);
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+}
+
+/***** End Find Tour Section *****/
+
+/***** End MAIN Section *****/
+
+
