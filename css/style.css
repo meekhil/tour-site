@@ -58,14 +58,13 @@ a {
   margin: 0 auto;
 }
 
-.explore-btn {
-  /* width: 2.5rem; */
-  
-  margin: 4rem 0 0 0;
+.explore-btn {  
+  /* margin-top: 6rem; */
+  margin-top: clamp(3rem,2.6vw,7rem);
   display: inline-block;
-  padding: 1.3rem 2.5rem;
+  padding: clamp(.8rem,.8vw,4rem) clamp(1.8rem,1.8vw,4rem);
   text-transform: capitalize;
-  font-size: 1.6rem;
+  font-size: clamp(.7rem,1.2vw,2.6rem);
   font-weight: 700;
   background-color: var(--btn-color);
   border: 1.2px solid var(--btn-color);
