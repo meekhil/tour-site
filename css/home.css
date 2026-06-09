@@ -107,10 +107,9 @@ h2 {
   word-spacing: -1rem;
 }
 
-p{
+p {
   font-size: clamp(1rem, 1.2vw, 5rem);
 }
-
 
 #btn-left {
   left: 95%;
@@ -200,3 +199,4 @@ select {
 /***** End Find Tour Section *****/
 
 /***** End MAIN Section *****/
+

@@ -59,7 +59,6 @@ a {
 }
 
 .explore-btn {  
-  /* margin-top: 6rem; */
   margin-top: clamp(3rem,2.6vw,7rem);
   display: inline-block;
   padding: clamp(.8rem,.8vw,4rem) clamp(1.8rem,1.8vw,4rem);

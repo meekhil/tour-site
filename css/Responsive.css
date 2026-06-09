@@ -1,4 +1,3 @@
-
 @media screen and (width <= 990px) {
   /***** HEADER Section *****/
 
@@ -12,15 +11,105 @@
 
   /***** End HEADER Section *****/
 
-  /***** MAIN Section *****/ 
-  
-  /***** Explore-section Section *****/ 
-  
-  background-size: ;
-  
+  /***** MAIN Section *****/
+
+  /***** Explore-section Section *****/
+
+  @media screen and (width <= 320px) {
+    .explore-nav-btn {
+      bottom: 5%;
+    }
+
+    #btn-right {
+      right: 81%;
+    }
+
+    #btn-left {
+      left: 81%;
+    }
+
+    #btn-center {
+      left: 52%;
+      bottom: 5%;
+    }
+  }
+
+  @media screen and (width >= 320px) and (width <= 375px) {
+    .explore-nav-btn {
+      bottom: 2%;
+    }
+
+    #btn-right {
+      right: 83%;
+    }
+
+    #btn-left {
+      left: 83%;
+    }
+
+    #btn-center {
+      left: 53%;
+      bottom: 2%;
+    }
+  }
+
+  @media screen and (width > 375px) and (width <= 425px) {
+    .explore-nav-btn {
+      bottom: 3%;
+    }
+
+    #btn-right {
+      right: 85%;
+    }
+
+    #btn-left {
+      left: 85%;
+    }
+
+    #btn-center {
+      left: 59%;
+      bottom: 3%;
+    }
+  }
+
+  @media screen and (width > 425px) and (width <= 768px) {
+    .explore-nav-btn {
+      bottom: 2%;
+    }
+
+    #btn-right {
+      right: 85%;
+    }
+
+    #btn-left {
+      left: 85%;
+    }
+
+    #btn-center {
+      left: 60%;
+      bottom: 2%;
+    }
+  }
+  @media screen and (width > 768px) and (width <= 1024px) {
+    .explore-nav-btn {
+      bottom: 2%;
+    }
+
+    #btn-right {
+      right: 89%;
+    }
+
+    #btn-left {
+      left: 89%;
+    }
+
+    #btn-center {
+      left: 74%;
+      bottom: 2%;
+    }
+  }
+
   /***** End Explore-section Section *****/
-  
-  
+
   /***** End MAIN Section *****/
-  
 }
