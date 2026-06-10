@@ -62,6 +62,8 @@
     <!-- ========== Start MAIN Section ========== -->
 
     <main>
+      <!--? Explore Section -->
+
       <section id="explore-section">
         <div id="explore-item1" class="explore-containere">
           <article>
@@ -138,16 +140,18 @@
         </button>
       </section>
 
+      <!--? find Tour Section -->
+
       <section id="find-tour">
         <form action="" method="get">
           <div>
-            <label for="tourDate">Date From:</label><br>
+            <label for="tourDate">Date From:</label><br />
             <input type="date" name="tourDate" id="tourDate" />
           </div>
 
           <div>
-            <label for="place">Destinations:</label><br>
-            <select  name="place" id="place">
+            <label for="place">Destinations:</label><br />
+            <select name="place" id="place">
               <option value="">Select Location</option>
               <option value="Australia">Australia</option>
               <option value="London">London</option>
@@ -159,7 +163,7 @@
           </div>
 
           <div>
-            <label for="activity">Activity:</label><br>
+            <label for="activity">Activity:</label><br />
             <select name="activity" id="activity">
               <option value="">Select Location</option>
               <option value="Adventure">Adventure</option>
@@ -173,7 +177,7 @@
           </div>
 
           <div>
-            <label for="guests">Guests:</label><br>
+            <label for="guests">Guests:</label><br />
             <select name="guests" id="guests">
               <option value="">0</option>
               <option value="1">1</option>
@@ -185,8 +189,52 @@
             </select>
           </div>
 
-         <button class="explore-btn" type="submit">Find Tour</button>
+          <div>
+            <button id="find-tour-btn" class="explore-btn" type="submit">
+              Find Tour
+            </button>
+          </div>
         </form>
+      </section>
+
+      <section id="book-now">
+        <div id="booking-container" class="container">
+          <div id="about-picture">
+            <img src="./assect/images/about.jpg" alt="" width="600px" />
+          </div>
+
+          <article>
+            <div>About Us</div>
+            <h3>Plan Your Trip with Tours</h3>
+            <p>
+              Lorem ipsum vivera feugiat. Pellen tesque libero ut justo,
+              ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit.
+            </p>
+
+            <ul>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> 2000+ Our Worldwide
+                Guide
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> 100% Trusted Tour
+                Agency
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> 24+ Years of Experience
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> 100% Travelers are
+                Happy
+              </li>
+            </ul>
+
+            <div>
+              <button class="explore-btn" type="submit">Booking Now</button>
+            </div>
+          </article>
+        </div>
       </section>
     </main>
 
