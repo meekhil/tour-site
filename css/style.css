@@ -11,11 +11,11 @@
   --text-input-color: #ffffff33;
   --Default-font: "Inter", sans-serif;
   --logo-font: "Dancing Script", cursive;
-  --outline-color: #8C8C8C;
 
   /* "212529": "#212529",
     "000000": "#000000",
     "0D132C": "#0D132C",
+    "8C8C8C": "#8C8C8C",
     "ABABAB": "#ABABAB",
     "B7B7B7": "#B7B7B7",
     "EEEEEE": "#EEEEEE",
@@ -41,10 +41,6 @@ body {
   overflow-x: hidden;
 }
 
-section{
-  width: 100vw;
-}
-
 ul,
 ol {
   list-style: none;
@@ -62,12 +58,18 @@ a {
   margin: 0 auto;
 }
 
-.explore-btn {  
-  margin-top: clamp(3rem,2.6vw,7rem);
+.section-name{
+  font-size: clamp(2.5rem,2.4vw,4.6rem);
+  font-family: var(--logo-font);
+  color: var(--btn-color);
+}
+
+.explore-btn {
+  margin: 4rem 0 0 0;
   display: inline-block;
-  padding: clamp(.8rem,.8vw,4rem) clamp(1.8rem,1.8vw,4rem);
+  padding: 1.3rem 2.5rem;
   text-transform: capitalize;
-  font-size: clamp(.7rem,1.2vw,2.6rem);
+  font-size: 1.6rem;
   font-weight: 700;
   background-color: var(--btn-color);
   border: 1.2px solid var(--btn-color);
@@ -98,7 +100,6 @@ a {
 
 .explore-nav-btn {
   width: 5rem;
-  /* width: clamp(,2.2vw,); */
   height: 5rem;
   color: var(--text-color);
   text-align: center;
@@ -107,6 +108,20 @@ a {
   bottom: 1%;
   z-index: 2;
   border: none;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.round-icon{
+  width: 8rem;
+  height: 8rem;
+  margin-bottom: 2rem;
+  font-size: clamp(2.4rem,2vw,4.2rem);
+  display: grid;
+  place-items: center;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;

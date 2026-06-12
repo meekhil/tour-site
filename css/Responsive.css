@@ -111,5 +111,53 @@
 
   /***** End Explore-section Section *****/
 
+  
+@media screen and (width <= 620px) {
+  #find-tour {
+    width: 100vw;
+    height: 90vh;
+    display: grid;
+    place-items: center;
+  }
+
+  #find-tour > form {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+@media screen and (width <= 990px) {
+
+  #book-now {
+  height: auto;
+}
+
+  #booking-container {
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px 10px;
+  }
+
+  #booking-container > article {
+  justify-content: start;
+}
+}
+
+
+@media screen and (width <= 600px) {
+
+  #Statistics-section{
+  height: 80vh;
+  
+}
+
+  
+}
+
+
   /***** End MAIN Section *****/
 }
