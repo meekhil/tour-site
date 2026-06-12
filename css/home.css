@@ -297,7 +297,11 @@ select:hover {
   align-items: center;
   justify-content: space-around;
   gap: 3rem;
-  /* background-color: #fff; */
+}
+
+#Statistics-count >div{
+  display: grid;
+  place-items: center;
 }
 
 .Statistics-icon-wraper{
@@ -313,8 +317,61 @@ select:hover {
 
 /*--------- Our Services Section -----------*/
 
+#Our-Services{
+  width: 100vw;
+  height: 80vh;
+  display: grid;
+  place-items: center;
+}
 
 
+#Services-container{
+  width: 70%;
+  height: 40%;
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
 
+}
 
-/***** End MAIN Section *****/
+#Services-container > ul{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+
+}
+
+#Services-container > ul li{
+  width: 30rem;
+  padding: 3rem 4rem;
+  background-color: var(--services-card-color);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+#Services-container > ul li:hover{
+  border: 1px solid var( --text-input-color);
+  background-color: inherit;
+}
+
+.Services-icon-wraper{
+  background-color: var(--btn-color);
+}
+
+#Our-Services h4{
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+/* Responsive Design for Our Services Section */
+

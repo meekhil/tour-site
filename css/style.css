@@ -8,7 +8,9 @@
   --text-color: #ffffff;
   --btn-color: #336dd5;
   --body-color: #0f183a;
+  --services-card-color:#060606;
   --text-input-color: #ffffff33;
+  --statistic-bc-color:#070E2A;
   --Default-font: "Inter", sans-serif;
   --logo-font: "Dancing Script", cursive;
 
@@ -23,7 +25,7 @@
     "FBFBFB": "#FBFBFB",
     "FFA127": "#FFA127",
     "060606": "#060606",
-    "070E2A": "#070E2A",
+    "070E2A": "",
     "FFEFEC": "#FFEFEC" */
 }
 
