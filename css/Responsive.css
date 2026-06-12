@@ -1,5 +1,167 @@
-@media screen and (width <= 990px) {
-  /***** HEADER Section *****/
+
+
+
+
+
+/* ============ COMPREHENSIVE RESPONSIVE DESIGN FOR ALL SECTIONS ============ */
+
+/* ============ TABLET DEVICES (768px - 1024px) ============ */
+@media screen and (max-width: 1024px) {
+  /* Header Responsive */
+  header {
+    height: clamp(5.5rem, 10vh, 10rem);
+  }
+
+  nav {
+    width: 85%;
+  }
+
+  #logo {
+    font-size: clamp(2rem, 3vw, 5rem);
+  }
+
+  #nav-item > li,
+  li > a,
+  li > a > i {
+    font-size: clamp(1rem, 0.9vw, 1.8rem);
+  }
+
+  #nav-item > li > input {
+    width: clamp(15rem, 18vw, 20rem);
+    padding: 0 0 0 25px;
+    height: 3.8rem;
+  }
+
+  #search-box {
+    width: 4.5rem;
+    height: 3.8rem;
+  }
+
+  /* Explore Section Responsive */
+  .explore-containere {
+    height: 70vh;
+  }
+
+  .explore-containere > article {
+    width: 85%;
+    height: 35%;
+  }
+
+  h2 {
+    font-size: clamp(1.8rem, 4vw, 10rem);
+    margin: 0 0 0 1rem;
+  }
+
+  p {
+    font-size: clamp(0.9rem, 1vw, 3rem);
+  }
+
+  #btn-center {
+    left: 65%;
+    padding: 0.8rem 1.6rem;
+  }
+
+  /* Find Tour Section Responsive */
+  #find-tour {
+    height: 50vh;
+  }
+
+  #find-tour > form {
+    width: 85%;
+    height: auto;
+  }
+
+  #find-tour > form > div > input,
+  select {
+    width: clamp(10rem, 15vw, 18rem);
+    height: clamp(2.8rem, 4vh, 5rem);
+  }
+
+  #find-tour > form > div > label {
+    font-size: clamp(1rem, 1vw, 2.8rem);
+  }
+
+  #find-tour-btn {
+    padding: 1.2rem 6rem;
+  }
+
+  /* Book Now Section Responsive */
+  #book-now {
+    height: auto;
+    padding: 3rem 0;
+  }
+
+  #booking-container {
+    width: 85%;
+    height: auto;
+    gap: 20px 30px;
+  }
+
+  #booking-container > article > p {
+    font-size: clamp(1rem, 1vw, 2.8rem);
+  }
+
+  #booking-container > article > ul > li {
+    font-size: clamp(1rem, 0.9vw, 2.2rem);
+  }
+
+  /* Statistics Section Responsive */
+  #Statistics-section {
+    height: auto;
+    padding: 3rem 0;
+  }
+
+  #Statistics-section > div {
+    width: 80%;
+    height: auto;
+    padding-top: 4rem;
+    background-size: contain;
+  }
+
+  #Statistics-count {
+    height: auto;
+    gap: 2rem;
+  }
+
+  .count {
+    font-size: clamp(1.6rem, 2.2vw, 3.8rem);
+  }
+
+  /* Our Services Section Responsive */
+  #Our-Services {
+    height: auto;
+    padding: 3rem 0;
+  }
+
+  #Services-container {
+    width: 80%;
+    height: auto;
+  }
+
+  #Services-container > ul li {
+    width: clamp(20rem, 40vw, 27rem);
+    padding: 2rem 2.5rem;
+  }
+
+  #Our-Services h4 {
+    font-size: 2rem;
+  }
+}
+
+/* ============ MOBILE DEVICES (480px - 767px) ============ */
+@media screen and (max-width: 767px) {
+  /* Header Responsive */
+  header {
+    height: clamp(4.5rem, 8vh, 7rem);
+  }
+
+  nav {
+    width: 90%;
+  }
+
+  #logo {
+    font-size: clamp(1.8rem, 2.5vw, 3.5rem);
+  }
 
   #nav-item {
     display: none;
@@ -9,185 +171,147 @@
     display: flex;
   }
 
-  /***** End HEADER Section *****/
-
-  /***** MAIN Section *****/
-
-  /***** Explore-section Section *****/
-
-  @media screen and (width <= 320px) {
-    .explore-nav-btn {
-      bottom: 5%;
-    }
-
-    #btn-right {
-      right: 81%;
-    }
-
-    #btn-left {
-      left: 81%;
-    }
-
-    #btn-center {
-      left: 52%;
-      bottom: 5%;
-    }
+  /* Explore Section Responsive */
+  .explore-containere {
+    height: 50vh;
   }
 
-  @media screen and (width >= 320px) and (width <= 375px) {
-    .explore-nav-btn {
-      bottom: 2%;
-    }
-
-    #btn-right {
-      right: 83%;
-    }
-
-    #btn-left {
-      left: 83%;
-    }
-
-    #btn-center {
-      left: 53%;
-      bottom: 2%;
-    }
+  .explore-containere > article {
+    width: 90%;
+    height: 45%;
   }
 
-  @media screen and (width > 375px) and (width <= 425px) {
-    .explore-nav-btn {
-      bottom: 3%;
-    }
-
-    #btn-right {
-      right: 85%;
-    }
-
-    #btn-left {
-      left: 85%;
-    }
-
-    #btn-center {
-      left: 59%;
-      bottom: 3%;
-    }
+  h2 {
+    font-size: clamp(1.4rem, 3vw, 6rem);
+    margin: 0 0 0 0.8rem;
+    word-spacing: -0.5rem;
   }
 
-  @media screen and (width > 425px) and (width <= 768px) {
-    .explore-nav-btn {
-      bottom: 2%;
-    }
-
-    #btn-right {
-      right: 85%;
-    }
-
-    #btn-left {
-      left: 85%;
-    }
-
-    #btn-center {
-      left: 60%;
-      bottom: 2%;
-    }
-  }
-  @media screen and (width > 768px) and (width <= 1024px) {
-    .explore-nav-btn {
-      bottom: 2%;
-    }
-
-    #btn-right {
-      right: 89%;
-    }
-
-    #btn-left {
-      left: 89%;
-    }
-
-    #btn-center {
-      left: 74%;
-      bottom: 2%;
-    }
+  p {
+    font-size: clamp(0.8rem, 0.9vw, 2rem);
   }
 
-  /***** End Explore-section Section *****/
+  .explore-btn {
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    margin: 2rem 0 0 0;
+  }
 
-  
-@media screen and (width <= 620px) {
+  #btn-left,
+  #btn-right {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  #btn-center {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  /* Find Tour Section Responsive */
   #find-tour {
-    width: 100vw;
-    height: 90vh;
-    display: grid;
-    place-items: center;
+    height: auto;
+    padding: 2rem 0;
   }
 
   #find-tour > form {
     width: 90%;
-    height: 90%;
+    height: auto;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  #find-tour > form > div {
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
-}
 
+  #find-tour > form > div > label {
+    font-size: clamp(0.9rem, 1vw, 1.8rem);
+  }
 
+  #find-tour > form > div > input,
+  select {
+    width: 100%;
+    height: clamp(2.5rem, 4vh, 4.5rem);
+    font-size: clamp(0.75rem, 1vw, 1.6rem);
+  }
 
-@media screen and (width <= 990px) {
+  #find-tour-btn {
+    width: 100%;
+    padding: 1rem 2rem;
+  }
 
+  /* Book Now Section Responsive */
   #book-now {
-  height: auto;
-}
+    height: auto;
+    overflow-y: visible;
+    padding: 2rem 0;
+  }
 
   #booking-container {
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(2, 1fr);
-  gap: 20px 10px;
+    width: 90%;
+    height: auto;
+    grid-template-columns: 1fr;
+    gap: 20px 0;
+    padding-left: 1rem;
   }
 
   #booking-container > article {
-  justify-content: start;
-}
-}
+    align-items: flex-start;
+  }
 
+  #booking-container > article > p {
+    font-size: clamp(0.9rem, 1vw, 1.8rem);
+    padding-bottom: 1.5rem;
+  }
 
-@media screen and (width <= 600px) {
+  #booking-container > article > ul > li {
+    font-size: clamp(0.85rem, 0.9vw, 1.6rem);
+    margin-bottom: 0.8rem;
+  }
 
-  #Statistics-section{
-  height: 80vh;
-  
-}
+  #about-picture {
+    margin-top: 2rem;
+  }
 
-  
-}
-
-
-  /***** End MAIN Section *****/
-}
-
-/* Tablets (768px to 1024px) */
-@media screen and (max-width: 1024px) {
-  #Our-Services {
+  /* Statistics Section Responsive */
+  #Statistics-section {
     height: auto;
-    padding: 3rem 0;
+    padding: 2rem 0;
   }
 
-  #Services-container {
-    width: 85%;
+  #Statistics-section > div {
+    width: 90%;
     height: auto;
+    padding-top: 2rem;
+    background-size: contain;
   }
 
-  #Services-container > ul li {
-    width: clamp(20rem, 45vw, 28rem);
-    padding: 2rem 2.5rem;
+  #Statistics-count {
+    height: auto;
+    flex-direction: column;
+    gap: 1.5rem;
   }
 
-  #Our-Services h4 {
-    font-size: 2rem;
+  .count {
+    font-size: clamp(1.4rem, 2vw, 2.8rem);
+    margin-bottom: 0.8rem;
   }
-}
 
-/* Mobile Devices (480px to 767px) */
-@media screen and (max-width: 767px) {
+  .round-icon {
+    width: 6rem;
+    height: 6rem;
+    font-size: clamp(1.8rem, 1.5vw, 3rem);
+    margin-bottom: 1rem;
+  }
+
+  /* Our Services Section Responsive */
   #Our-Services {
-    width: 100vw;
     height: auto;
     padding: 2rem 0;
   }
@@ -199,25 +323,194 @@
 
   #Services-container > ul {
     flex-direction: column;
-    gap: 2rem;
-    align-items: center;
+    gap: 1.5rem;
   }
 
   #Services-container > ul li {
-    width: clamp(18rem, 90vw, 25rem);
-    padding: 2rem 1.5rem;
+    width: clamp(18rem, 85vw, 24rem);
+    padding: 1.8rem 1.5rem;
   }
 
   #Our-Services h4 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-bottom: 1.5rem;
   }
 }
 
-/* Small Mobile Devices (< 480px) */
+/* ============ SMALL MOBILE DEVICES (< 480px) ============ */
 @media screen and (max-width: 479px) {
+  html {
+    font-size: 55%;
+  }
+
+  /* Header Responsive */
+  header {
+    height: clamp(4rem, 7vh, 5.5rem);
+  }
+
+  nav {
+    width: 95%;
+  }
+
+  #logo {
+    font-size: clamp(1.6rem, 2vw, 2.8rem);
+  }
+
+  #nav-item {
+    display: none;
+  }
+
+  #nav-button {
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  #dark-mode {
+    display: none;
+  }
+
+  /* Explore Section Responsive */
+  .explore-containere {
+    height: 40vh;
+  }
+
+  .explore-containere > article {
+    width: 95%;
+    height: 50%;
+  }
+
+  h2 {
+    font-size: clamp(1.2rem, 2.5vw, 3.5rem);
+    margin: 0 0 0 0.5rem;
+  }
+
+  p {
+    font-size: clamp(0.7rem, 0.8vw, 1.4rem);
+  }
+
+  .explore-btn {
+    padding: 0.8rem 1.6rem;
+    font-size: 1.2rem;
+  }
+
+  #btn-left,
+  #btn-right {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.4rem;
+  }
+
+  #btn-center {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 3%;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+  }
+
+  /* Find Tour Section Responsive */
+  #find-tour {
+    height: auto;
+    padding: 1.5rem 0;
+  }
+
+  #find-tour > form {
+    width: 95%;
+    height: auto;
+    flex-direction: column;
+    gap: 1.2rem;
+    box-shadow: 0px 0px 20px 1px #080808;
+  }
+
+  #find-tour > form > div {
+    width: 100%;
+  }
+
+  #find-tour > form > div > label {
+    font-size: clamp(0.8rem, 0.9vw, 1.4rem);
+  }
+
+  #find-tour > form > div > input,
+  select {
+    width: 100%;
+    height: clamp(2.3rem, 3.5vh, 3.8rem);
+    font-size: clamp(0.7rem, 0.8vw, 1.4rem);
+    margin-top: 0.7rem;
+  }
+
+  #find-tour-btn {
+    width: 100%;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  /* Book Now Section Responsive */
+  #book-now {
+    height: auto;
+    overflow-y: visible;
+    padding: 1.5rem 0;
+  }
+
+  #booking-container {
+    width: 95%;
+    height: auto;
+    grid-template-columns: 1fr;
+    gap: 15px 0;
+    padding-left: 0;
+  }
+
+  #booking-container > article {
+    align-items: flex-start;
+  }
+
+  #booking-container > article > p {
+    font-size: clamp(0.8rem, 0.9vw, 1.4rem);
+    padding-bottom: 1rem;
+  }
+
+  #booking-container > article > ul > li {
+    font-size: clamp(0.75rem, 0.85vw, 1.3rem);
+    margin-bottom: 0.6rem;
+  }
+
+  #about-picture {
+    margin-top: 1.5rem;
+  }
+
+  /* Statistics Section Responsive */
+  #Statistics-section {
+    height: auto;
+    padding: 1.5rem 0;
+  }
+
+  #Statistics-section > div {
+    width: 95%;
+    height: auto;
+    padding-top: 1.5rem;
+    background-size: contain;
+  }
+
+  #Statistics-count {
+    height: auto;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .count {
+    font-size: clamp(1.2rem, 1.8vw, 2.2rem);
+    margin-bottom: 0.6rem;
+  }
+
+  .round-icon {
+    width: 5rem;
+    height: 5rem;
+    font-size: clamp(1.4rem, 1.2vw, 2.2rem);
+    margin-bottom: 0.8rem;
+  }
+
+  /* Our Services Section Responsive */
   #Our-Services {
-    width: 100vw;
     height: auto;
     padding: 1.5rem 0;
   }
@@ -225,27 +518,29 @@
   #Services-container {
     width: 95%;
     height: auto;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
   }
 
   #Services-container > ul {
     flex-direction: column;
-    gap: 1.5rem;
-    align-items: center;
+    gap: 1.2rem;
   }
 
   #Services-container > ul li {
     width: 100%;
-    max-width: 22rem;
+    max-width: 20rem;
     padding: 1.5rem 1rem;
   }
 
   #Our-Services h4 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
   }
+
+  .Services-icon-wraper {
+    width: 5rem;
+    height: 5rem;
+    font-size: clamp(1.4rem, 1.2vw, 2rem);
+  }
 }
-
-/***** End MAIN Section *****/
-
 
