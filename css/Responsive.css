@@ -1,12 +1,9 @@
 
 
 
-
-
-/* ============ COMPREHENSIVE RESPONSIVE DESIGN FOR ALL SECTIONS ============ */
-
 /* ============ TABLET DEVICES (768px - 1024px) ============ */
 @media screen and (max-width: 1024px) {
+
   /* Header Responsive */
   header {
     height: clamp(5.5rem, 10vh, 10rem);
@@ -146,9 +143,51 @@
   #Our-Services h4 {
     font-size: 2rem;
   }
+
+  /* Our Features Section Responsive */
+
+   #Our-Features {
+    height: auto;
+    padding: 3rem 0;
+  }
+
+  #Features-container {
+    width: 85%;
+    height: auto;
+    gap: 30px 40px;
+    padding-left: 1.5rem;
+  }
+
+  #Features-container > article > h3 {
+    font-size: clamp(2.4rem, 2.8vw, 5.5rem);
+    margin-bottom: 1.8rem;
+  }
+
+  #Features-container > article > p {
+    font-size: clamp(1rem, 1vw, 2.8rem);
+    padding-bottom: 2rem;
+  }
+
+  #Features-container > article > ul > li {
+    margin-bottom: 3rem;
+    font-size: clamp(1rem, 0.9vw, 2.2rem);
+    gap: 1.5rem;
+  }
+
+  #Features-container > article > ul > li > i {
+    width: 8rem;
+    height: 5rem;
+    font-size: 1.3vw;
+  }
+
+  h5 {
+    font-size: clamp(1.3rem, 1.2vw, 3rem);
+    margin-bottom: 1rem;
+  }
 }
 
 /* ============ MOBILE DEVICES (480px - 767px) ============ */
+
 @media screen and (max-width: 767px) {
   /* Header Responsive */
   header {
@@ -335,6 +374,61 @@
     font-size: 1.6rem;
     margin-bottom: 1.5rem;
   }
+
+/* Our Features Section Responsive */  
+
+    #Our-Features {
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  #Features-container {
+    width: 90%;
+    height: auto;
+    grid-template-columns: 1fr;
+    gap: 30px 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #Features-container > article {
+    margin-bottom: 2rem;
+  }
+
+  #Features-container > article > h3 {
+    font-size: clamp(2rem, 2.5vw, 4rem);
+    margin-bottom: 1.5rem;
+  }
+
+  #Features-container > article > p {
+    font-size: clamp(0.9rem, 1vw, 1.8rem);
+    padding-bottom: 1.5rem;
+  }
+
+  #Features-container > article > ul > li {
+    width: 100%;
+    margin-bottom: 2.5rem;
+    font-size: clamp(0.9rem, 0.9vw, 1.6rem);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2rem;
+  }
+
+  #Features-container > article > ul > li > i {
+    width: 6rem;
+    height: 4rem;
+    font-size: 1.1vw;
+    flex-shrink: 0;
+  }
+
+  #Features-picture > img {
+    margin-top: 2rem;
+  }
+
+  h5 {
+    font-size: clamp(1.1rem, 1.1vw, 1.8rem);
+    margin-bottom: 0.8rem;
+  }
 }
 
 /* ============ SMALL MOBILE DEVICES (< 480px) ============ */
@@ -454,7 +548,7 @@
 
   #booking-container {
     width: 95%;
-    height: auto;
+    height: auto; 
     grid-template-columns: 1fr;
     gap: 15px 0;
     padding-left: 0;
@@ -542,5 +636,70 @@
     height: 5rem;
     font-size: clamp(1.4rem, 1.2vw, 2rem);
   }
+
+    /* Our Features Section Responsive */
+
+     #Our-Features {
+    height: auto;
+    padding: 1.5rem 0;
+  }
+
+  #Features-container {
+    width: 95%;
+    height: auto;
+    grid-template-columns: 1fr;
+    gap: 38px 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #Features-container > article {
+    margin-bottom: 1.5rem;
+    align-items: flex-start;
+    padding: 0 0.5rem;
+  }
+
+  #Features-container > article > h3 {
+    font-size: clamp(1.6rem, 2vw, 3rem);
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+
+  #Features-container > article > p {
+    font-size: clamp(0.8rem, 0.9vw, 1.4rem);
+    padding-bottom: 1rem;
+  }
+
+  #Features-container > article > ul > li {
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size: clamp(0.8rem, 0.85vw, 1.3rem);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    justify-content: flex-start;
+  }
+
+  #Features-container > article > ul > li > i {
+    width: 5rem;
+    height: 3.5rem;
+    font-size: 0.9vw;
+    min-width: 5rem;
+    min-height: 3.5rem;
+  }
+
+  #Features-picture {
+    margin-top: 1.5rem;
+  }
+
+  #Features-picture > img {
+    border-radius: 0.8rem;
+  }
+
+  h5 {
+    font-size: clamp(1rem, 1vw, 1.4rem);
+    margin-bottom: 0.6rem;
+  }
+
 }
 
