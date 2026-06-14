@@ -232,14 +232,6 @@ select:hover {
   justify-content: center;
 }
 
-#booking-container >article > h3{
-  font-size: clamp(2.8rem,3vw,6.6rem);
-  font-weight: 500;
-  margin-bottom: 2rem;
-}
-
-
-
 #booking-container > article > p {
   color: var(--outline-color);
   font-size: clamp(1.2rem, 1.1vw, 3.4rem);
@@ -257,8 +249,6 @@ select:hover {
   color: var(--btn-color);
 }
 
-
-
 #about-picture > img {
   width: 100%;
   height: 100%;
@@ -269,32 +259,28 @@ select:hover {
   -o-border-radius: 1rem;
 }
 
-
 /*------------ Statistics Section ------------*/
 
-
-#Statistics-section{
-
+#Statistics-section {
   height: 60vh;
   display: grid;
   place-items: center;
   background-color: var(--statistic-bc-color);
-  
 }
 
-#Statistics-section > div{
+#Statistics-section > div {
   width: 70%;
   height: 100%;
   padding-top: 6rem;
-  
+
   background: url(../assect/images/map.png) no-repeat;
   background-size: 100% auto;
   text-align: center;
 }
 
-#Statistics-count{
+#Statistics-count {
   width: 100%;
-  height:60%;
+  height: 60%;
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -304,32 +290,29 @@ select:hover {
   gap: 3rem;
 }
 
-#Statistics-count >div{
+#Statistics-count > div {
   display: grid;
   place-items: center;
 }
 
-.Statistics-icon-wraper{
+.Statistics-icon-wraper {
   background-color: #ffffff23;
 }
 
-.count{
-  font-size: clamp(1.8rem,2.5vw,4.5rem);
+.count {
+  font-size: clamp(1.8rem, 2.5vw, 4.5rem);
   font-weight: 900;
   margin-bottom: 1.2rem;
 }
 
-
 /*--------- Our Services Section -----------*/
 
-#Our-Services{
+#Our-Services {
   width: 100vw;
   height: 80vh;
-
 }
 
-
-#Services-container{
+#Services-container {
   padding-top: 6rem;
   width: 70%;
   height: 40%;
@@ -338,21 +321,14 @@ select:hover {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-
 }
 
-#Services-container > div:first-child{
+#Services-container > div:first-child {
   margin-bottom: 4rem;
   text-align: center;
 }
 
-
-#Services-container > div > h3{
-  font-size: clamp(2.5rem,2.3vw,4.8rem);
-
-}
-
-#Services-container > ul{
+#Services-container > ul {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -360,10 +336,9 @@ select:hover {
   align-items: center;
   justify-content: space-around;
   gap: 3rem;
-
 }
 
-#Services-container > ul li{
+#Services-container > ul li {
   width: 30rem;
   padding: 3rem 4rem;
   background-color: var(--services-card-color);
@@ -377,25 +352,23 @@ select:hover {
   -o-border-radius: 2rem;
 }
 
-#Services-container > ul li:hover{
-  border: 1px solid var( --text-input-color);
+#Services-container > ul li:hover {
+  border: 1px solid var(--text-input-color);
   background-color: inherit;
 }
 
-.Services-icon-wraper{
+.Services-icon-wraper {
   background-color: var(--btn-color);
 }
 
-#Our-Services h4{
+#Our-Services h4 {
   font-size: 2.4rem;
   margin-bottom: 2rem;
 }
 
-
 /*----------- Our Features ------------*/
 
-
-#Our-Features{
+#Our-Features {
   width: 100vw;
   height: 90vh;
 }
@@ -422,12 +395,6 @@ select:hover {
   font-size: clamp(1.2rem, 1.1vw, 3.4rem);
   font-weight: 400;
   padding-bottom: 2.6rem;
-}
-
-#Features-container >article > h3{
-  font-size: clamp(2.8rem,3vw,6.6rem);
-  font-weight: 500;
-  margin-bottom: 2rem;
 }
 
 #Features-container > article > ul > li {
@@ -465,10 +432,195 @@ select:hover {
   -o-border-radius: 1rem;
 }
 
-h5{
-  font-size: clamp(1.5rem,1.4vw,3.8rem);
+h5 {
+  font-size: clamp(1.5rem, 1.4vw, 3.8rem);
   margin-bottom: 1.2rem;
 }
 
+/*------------ Our Blog Section --------------*/
 
+#Our-Blog {
+  height: 120vh;
+  background-color: var(--statistic-bc-color);
+  display: grid;
+  place-items: center;
 
+}
+
+#first-block {
+  width: 70%;
+  text-align: center;
+  /* background-color: #fff; */
+}
+
+.second-block {
+  width: 80%;
+  /* background-color: #fff; */
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-evenly;
+}
+
+.second-block article {
+  width: clamp(27.4rem, 24.38vw, 47.4rem);
+  height: clamp(44rem, 74vh, 74rem);
+  overflow: hidden;
+  background-color: var(--body-color);
+  border-radius: 1.2rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  -ms-border-radius: 1.2rem;
+  -o-border-radius: 1.2rem;
+}
+
+.image-wraps {
+  width: 100%;
+  height: 45.3%;
+}
+
+.image-wraps > a > img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-wraps > a {
+  width: 100%;
+}
+
+.content-wraps {
+  width: 100%;
+  height: 54.6%;
+  /* background-color: #542828; */
+}
+
+.content-center{
+  width: 85%;
+  margin: 0 auto;
+
+  & p{
+    color: var(--content-wrap-text-color);
+  }
+
+}
+
+.content-center > div:first-child {
+  padding: 2.2rem 0;
+  display: flex;
+  gap: 2rem;
+
+  & div {
+    color: var(--content-wrap-text-color);
+  }
+
+  & i {
+    color: var(--btn-color);
+    font-size: 1.7rem;
+  }
+}
+
+.btn-wrap{
+  margin-bottom: 3rem;
+}
+
+h5{
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+/* Mobile Devices (max-width: 640px) */
+@media (max-width: 640px) {
+  #Our-Blog {
+    height: auto;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+  }
+
+  #first-block {
+    width: 95%;
+    margin-bottom: 2rem;
+  }
+
+  .second-block {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    height: auto;
+  }
+
+  .second-block article {
+    width: 100%;
+    max-width: 40rem;
+    height: auto;
+  }
+
+  .image-wraps {
+    height: 20rem;
+  }
+
+  .content-wraps {
+    height: auto;
+  }
+
+  .content-center {
+    width: 90%;
+  }
+
+  .content-center > div:first-child {
+    gap: 1rem;
+    padding: 1.5rem 0;
+  }
+
+  .content-center > div:first-child > i {
+    font-size: 1.4rem;
+  }
+
+  .btn-wrap {
+    margin-bottom: 2rem;
+  }
+
+  h5 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Tablets (641px - 1024px) */
+@media (min-width: 641px) and (max-width: 1024px) {
+  #Our-Blog {
+    height: auto;
+    min-height: 100vh;
+    padding: 2rem;
+  }
+
+  #first-block {
+    width: 85%;
+    margin-bottom: 2.5rem;
+  }
+
+  .second-block {
+    width: 95%;
+    gap: 1.5rem;
+    height: auto;
+  }
+
+  .second-block article {
+    width: clamp(22rem, 35vw, 42rem);
+    height: auto;
+  }
+
+  .image-wraps {
+    height: clamp(16rem, 40%, 22rem);
+  }
+
+  .content-wraps {
+    height: auto;
+  }
+
+  h5 {
+    font-size: 2rem;
+  }
+}
+
+/*****END MAIN Section *****/

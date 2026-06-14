@@ -184,6 +184,37 @@
     font-size: clamp(1.3rem, 1.2vw, 3rem);
     margin-bottom: 1rem;
   }
+
+  /* Our Blog Section Responsive */
+  #Our-Blog {
+    height: auto;
+    min-height: 100vh;
+    padding: 2rem;
+  }
+
+  #first-block {
+    width: 85%;
+    margin-bottom: 2.5rem;
+  }
+
+  .second-block {
+    width: 95%;
+    gap: 1.5rem;
+    height: auto;
+  }
+
+  .second-block article {
+    width: clamp(22rem, 35vw, 42rem);
+    height: auto;
+  }
+
+  .image-wraps {
+    height: clamp(16rem, 40%, 22rem);
+  }
+
+  .content-wraps {
+    height: auto;
+  }
 }
 
 /* ============ MOBILE DEVICES (480px - 767px) ============ */
@@ -428,6 +459,57 @@
   h5 {
     font-size: clamp(1.1rem, 1.1vw, 1.8rem);
     margin-bottom: 0.8rem;
+  }
+
+  /* Our Blog Section Responsive */
+  #Our-Blog {
+    height: auto;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+  }
+
+  #first-block {
+    width: 95%;
+    margin-bottom: 2rem;
+  }
+
+  .second-block {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    height: auto;
+  }
+
+  .second-block article {
+    width: 100%;
+    max-width: 40rem;
+    height: auto;
+  }
+
+  .image-wraps {
+    height: 20rem;
+  }
+
+  .content-wraps {
+    height: auto;
+  }
+
+  .content-center {
+    width: 90%;
+  }
+
+  .content-center > div:first-child {
+    gap: 1rem;
+    padding: 1.5rem 0;
+  }
+
+  .content-center > div:first-child > i {
+    font-size: 1.4rem;
+  }
+
+  .btn-wrap {
+    margin-bottom: 2rem;
   }
 }
 
@@ -699,6 +781,58 @@
   h5 {
     font-size: clamp(1rem, 1vw, 1.4rem);
     margin-bottom: 0.6rem;
+  }
+
+  /* Our Blog Section Responsive */
+  #Our-Blog {
+    height: auto;
+    min-height: 100vh;
+    padding: 1.5rem 0.5rem;
+  }
+
+  #first-block {
+    width: 95%;
+    margin-bottom: 1.5rem;
+  }
+
+  .second-block {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    height: auto;
+  }
+
+  .second-block article {
+    width: 100%;
+    max-width: 38rem;
+    height: auto;
+  }
+
+  .image-wraps {
+    height: 18rem;
+  }
+
+  .content-wraps {
+    height: auto;
+  }
+
+  .content-center {
+    width: 90%;
+    padding: 0.8rem 0;
+  }
+
+  .content-center > div:first-child {
+    gap: 0.8rem;
+    padding: 1rem 0;
+  }
+
+  .content-center > div:first-child > i {
+    font-size: 1.2rem;
+  }
+
+  .btn-wrap {
+    margin-bottom: 1.5rem;
   }
 
 }
